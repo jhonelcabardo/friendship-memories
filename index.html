@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Our Friendship Memories 💜</title>
+
+  <meta
+    name="description"
+    content="A little photo diary of our friendship, laughter, and unforgettable memories."
+  >
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Pacifico&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Decorative background -->
+  <div class="stars" aria-hidden="true"></div>
+
+  <!-- Background Music -->
+  <audio id="backgroundMusic" loop>
+    <source src="song/Odette Quesada — Friend of Mine (LYRICS).mp3" type="audio/mpeg">
+    Your browser does not support audio.
+  </audio>
+
+  <!-- Music Button -->
+  <button
+    class="music-button"
+    id="musicButton"
+    type="button"
+    aria-label="Play background music"
+  >
+    ♫ Play Music
+  </button>
+
+  <!-- HERO SECTION -->
+  <header class="hero" id="home">
+
+    <p class="eyebrow">A LITTLE CORNER OF HAPPINESS ✨</p>
+
+    <h1>
+      Besties <span>Forever!</span>
+    </h1>
+
+    <p class="hero-description">
+      The random pictures, the loud laughs, the silly moments,
+      and the memories we'll talk about for years.
+      Here's to us. 💜
+    </p>
+
+    <a class="hero-button" href="#memories">
+      Open our memories ↓
+    </a>
+
+    <div class="floating-heart" aria-hidden="true">♡</div>
+
+  </header>
+
+  <!-- MEMORIES SECTION -->
+  <main>
+
+    <section class="memories-section" id="memories">
+
+      <p class="eyebrow">OUR PHOTO DIARY</p>
+
+      <h2>
+        Little moments,<br>
+        <span>big feelings.</span>
+      </h2>
+
+      <p class="section-description">
+        Eighteen pictures, countless memories. 💕
+      </p>
+
+      <!-- ONE PHOTO AT A TIME -->
+      <div
+        class="photo-gallery"
+        id="photoGallery"
+        aria-label="Friendship photo slideshow"
+        aria-live="off"
+      >
+        <!-- The 18 pictures are created by script.js -->
+      </div>
+
+      <!-- SLIDESHOW CONTROLS -->
+      <div class="slideshow-controls">
+
+        <button id="prevPhoto" type="button">
+          ❮ Previous
+        </button>
+
+        <span id="photoCounter" aria-live="polite">
+          1 / 18
+        </span>
+
+        <button id="nextPhoto" type="button">
+          Next ❯
+        </button>
+
+      </div>
+
+      <p class="slideshow-note">
+        Sit back, smile, and enjoy our little memories. 💜
+      </p>
+
+    </section>
+
+    <!-- FRIENDSHIP MESSAGE -->
+    <section class="friendship-message">
+
+      <div class="message-card">
+
+        <p class="eyebrow">A LITTLE REMINDER</p>
+
+        <h2>To more memories together. 💗</h2>
+
+        <p>
+          Thank you for the laughter, the unexpected adventures,
+          the random conversations, and the moments that made
+          ordinary days special.
+        </p>
+
+        <p>
+          No matter how busy life gets or how far our paths take us,
+          I hope we always find our way back to these memories
+          and remember how beautiful our friendship is.
+        </p>
+
+        <p class="signature">
+          Forever grateful for us. ♡
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <p>Made with love and friendship 💜</p>
+
+    <p>Our memories, our story, our forever.</p>
+
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
